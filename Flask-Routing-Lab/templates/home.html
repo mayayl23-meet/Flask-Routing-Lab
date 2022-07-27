@@ -7,33 +7,37 @@
 <body>
     <h1> Maya's Ebay Shop </h1>
     <div></div>
-    <a href="product.html"> View Reccomended Product </a>
-    <a href="cart.html"> View My Cart </a>
+    <a href="product"> View Reccomended Product </a>
+    <a href="cart"> View My Cart </a>
     <br>
     <h3> Shop Description: </h3>
     <br>
     <p> This is a shop where you can buy whatever you can dream of! You can find anything and everything in this shop, from phones, to school supplies. Take a look on our website to see if you find anything that you like! </p>
     <br>
     <h3> Here are some examples of things that we sell in our shop: </h3>
-    <img src="phone.jpeg"> Phones 
+    <img src="static/phone.jpeg"> Phones 
     <br>
     <h4> Product Information: </h4>
     <p> A brand new, still in packaging, iPhone 12 in rose pink, Price: 1,000$ (USD), Reviews: 7.9/10 </p>
     <br>
-    <img src="notebook.jpeg"> Notebooks 
+    <img src="static/notebook.jpeg"> Notebooks 
     <br>
      <h4> Product Information: </h4>
      <p> A set of 5 spiral notebooks, perfect for academics and personal use, Price: 20$ (USD), Reviews: 8.4/10</p>
     <br>
-    <img src="nespresso.jpeg"> Coffee Machines 
+    <img src="static/nespresso.jpeg"> Coffee Machines 
     <br>
      <h4> Product Information: </h4>
      <p> This is a really good coffee machine that runs with capsules (nespresso pods) and has a built-in milk frother attachment, Price: 150$ (USD), Reviews: 9.7/10 </p>
     <br> 
-    <img src="bedding.jpeg"> Bedding sets
+    <img src="static/bedding.jpeg"> Bedding sets
     <br>
      <h4> Product Information: </h4> 
+     <p> A white and grey bedding set fit for a double bed, Price: 50$ (UDS), Reviews: 6.3/10</p>
 
 
 </body>
+<head> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
 </html>
